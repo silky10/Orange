@@ -1,1 +1,9 @@
+###FizzBuzz
+ 
+for($x = 1; $x -le 100; $x++) {$output = ""
 
+if($x % 3 -eq 0) {$output += "Fizz"}
+if($x % 5 -eq 0) {$output += "Buzz"}
+if($output -eq "") { $output = $x}
+
+Write-Output $output}
